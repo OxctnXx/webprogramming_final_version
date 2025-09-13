@@ -1,0 +1,81 @@
+:root { 
+  --black: #000000;
+  --cultured-pearl: #f5f5f5;
+  --mercury: #e6e6e6;
+  --royal-blue: #3570ea;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 30px;
+  --font-size-s: 24px;
+  --font-size-xs: 20px;
+  --font-size-xxs: 18px;
+  --font-size-xxxs: 15px;
+  --font-size-xxxxs: 11px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-inter-regular: "Inter-Regular", Helvetica;
+}
+.inter-medium-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-regular-normal-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-inter-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-regular-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-inter-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-black-17px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}

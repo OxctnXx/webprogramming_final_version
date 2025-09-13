@@ -1,0 +1,486 @@
+/* screen - campusmap */
+
+.campusmap {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 1176px;
+    position: relative;
+}
+
+.campusmap .navigation-bar {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .nav-bar-group {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 61px;
+    padding: 0px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .nav-bar {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 60px;
+    padding: 15px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .frame-5 {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .right-menu {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.campusmap .profile {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 99px;
+}
+
+.campusmap .image {
+    background-color: var(--royal-blue);
+    border-radius: 15px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 30px;
+}
+
+.campusmap .frame-2 {
+    background-color: var(--cultured-pearl);
+    border-radius: 6px;
+    height: 12px;
+    left: 9px;
+    position: absolute;
+    top: 6px;
+    width: 12px;
+}
+
+.campusmap .frame-3-1 {
+    background-color: var(--cultured-pearl);
+    border-radius: 10px;
+    height: 20px;
+    left: 5px;
+    position: absolute;
+    top: 20px;
+    width: 20px;
+}
+
+.campusmap .text-1-1 {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    height: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: 57px;
+}
+
+.campusmap .log-out {
+    background-color: var(--royal-blue);
+    border-radius: 15px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 92px;
+}
+
+.campusmap .log-out-1 {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    height: 13px;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+}
+
+.campusmap .frame-51 {
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 940px;
+}
+
+.campusmap .title {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    height: 18px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 222px;
+}
+
+.campusmap .divider {
+    align-self: stretch;
+    background-color: var(--mercury);
+    height: 1px;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .frame-59 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 417px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .main-area {
+    height: 479px;
+    margin-bottom: -31.00px;
+    margin-top: -31.00px;
+    position: relative;
+    width: 824px;
+}
+
+.campusmap .main-title {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 183px;
+    width: 214px;
+}
+
+.campusmap .icon {
+    height: 60px;
+    position: relative;
+    width: 60px;
+}
+
+.campusmap .text-2 {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.campusmap .group-5 {
+    height: 303px;
+    left: 281px;
+    min-width: 500px;
+    position: absolute;
+    top: 89px;
+}
+
+.campusmap .number-container {
+    align-items: center;
+    background-image: url(../img/-----2024-11-03-223954-1-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 303px;
+    min-width: 486px;
+    padding: 40.1px 71.7px;
+}
+
+.campusmap .number-1 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 69.01px;
+    min-width: 8px;
+    text-align: center;
+}
+
+.campusmap .number-2 {
+    align-self: flex-start;
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 16px;
+    min-width: 6px;
+    text-align: center;
+}
+
+.campusmap .number-3 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 88.45px;
+    margin-left: 98px;
+    min-width: 9px;
+    text-align: center;
+}
+
+.campusmap .number-4 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 17.98px;
+    margin-left: 38px;
+    min-width: 9px;
+    text-align: center;
+}
+
+.campusmap .number-5 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 57px;
+    margin-top: 20.9px;
+    min-width: 8px;
+    text-align: center;
+}
+
+.campusmap .number-6 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 42px;
+    margin-top: 45.2px;
+    min-width: 9px;
+    text-align: center;
+}
+
+.campusmap .number-7 {
+    height: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 25px;
+    margin-top: 11.18px;
+    min-width: 8px;
+    text-align: center;
+}
+
+.campusmap .area2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--cultured-pearl);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 135px;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .main-area-1 {
+    height: 547px;
+    overflow: hidden;
+    position: relative;
+    width: 730px;
+}
+
+.campusmap .flex-row {
+    align-items: center;
+    display: flex;
+    left: 15px;
+    min-width: 673px;
+    position: relative;
+}
+
+.campusmap .word-schedule {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 522px;
+    justify-content: center;
+    margin-bottom: 28.0px;
+    position: relative;
+    width: 264px;
+}
+
+.campusmap .building {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.campusmap .words {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: 27px;
+}
+
+.campusmap .number {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: right;
+}
+
+.campusmap .border {
+    align-self: stretch;
+    position: relative;
+}
+
+.campusmap .text {
+    align-self: stretch;
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.campusmap .border-1 {
+    height: 600px;
+    margin-left: 2px;
+}
+
+.campusmap .group-4 {
+    gap: 8px;
+    height: 314px;
+    margin-bottom: 104.0px;
+    margin-left: 90px;
+    min-width: 316px;
+}
+
+.campusmap .frame-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-height: 314px;
+    width: 100px;
+}
+
+.campusmap .frame-3 {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 100px;
+    padding: 37px 31px;
+    width: 100px;
+}
+
+.campusmap .text-1 {
+    height: 24px;
+    white-space: nowrap;
+}
+
+.campusmap .frame-6 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.campusmap .frame-5-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 150px;
+    justify-content: center;
+    position: relative;
+    width: 1000px;
+}
+
+.campusmap .quiz {
+    background-color: var(--royal-blue);
+    border-radius: 50px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 360px;
+}
+
+.campusmap .text-19 {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    height: 29px;
+    left: 133px;
+    position: absolute;
+    top: 35px;
+}
+
+.campusmap .border-2 {
+    background-color: var(--mercury);
+    width: 1px;
+}
+
+.campusmap .exp-7 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: 177px;
+}
+
+.campusmap .group {
+    align-items: flex-start;
+    display: flex;
+}
+
+.campusmap .text-3 {
+    letter-spacing: 0;
+    line-height: normal;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png"/>
+    <meta name="og:type" content="website"/>
+    <meta name="twitter:card" content="photo"/>
+    <link rel="stylesheet" type="text/css" href="css/quiz.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css"/>
+    <link rel="stylesheet" type="text/css" href="css/globals.css"/>
+    <link rel="stylesheet" type="text/css" href="css/quiz-edit.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/userinfo.js"></script>
+    <style>
+        .resize-div {
+            transform-origin: left center;
+            animation: shrink 15s linear forwards;
+        }
+
+        @keyframes shrink {
+            0% {
+                transform: scaleX(1); /* 원래 크기 */
+            }
+            100% {
+                transform: scaleX(0); /* 너비 0으로 축소 */
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0; background: #f5f5f5">
+<input type="hidden" id="anPageName" name="page" value="quizaa"/>
+<div class="quiz screen" style="height: 630px; gap: 40px;">
+    <div class="navigation-bar">
+        <div class="nav-bar-group">
+            <div class="nav-bar">
+                <div class="frame-5">
+                    <div class="frame-51">
+                        <div class="title valign-text-middle inter-bold-black-15px" id="output">새내기 길라잡이</div>
+                    </div>
+                    <div class="frame-5">
+                        <div class="right-menu">
+                            <div class="profile">
+                                <div class="image">
+                                    <div class="frame-2"></div>
+                                    <div class="frame-3"></div>
+                                </div>
+                                <div class="text-1 valign-text-middle inter-normal-black-11px" id="user-name"></div>
+                            </div>
+                            <div class="log-out">
+                                <div class="log-out-1 valign-text-middle inter-normal-white-11px ">log out</div>
+                                <form action="/demo/logout" method="get">
+                                    <BUTTON type="submit" class="overlap-group" id="logoutbutton">
+                                    </BUTTON>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </div>
+    <div class="text-2 valign-text-middle" id="counter">1번</div>
+    <div class="frame-11" style="height: 358px; gap:0px; padding:0%;  ">
+        <div class="flex-col inter-bold-white-24px" style="top:30px">
+            <div style="display:flex; align-items:center; justify-content: flex-start; ">
+                <h1 class="text-3 valign-text-middle" id="quiz">aaaa</h1>
+                <img src="frame-26-1 (2)" id="probimg"
+                     style=" position:relative;   width :220px; height:220px; left:-70px">
+            </div>
+            <div class="frame-14" style=" top: -50px">
+                <div class="frame-12">
+                    <div class="o valign-text-middle">O</div>
+                    <form action="" method="get" onsubmit="return false;">
+                        <BUTTON type="button" class="okbutton" id="incrementButtonO">
+                        </BUTTON>
+                    </form>
+                </div>
+                <div class="frame-13">
+                    <div class="x valign-text-middle">X</div>
+                    <form action="" onsubmit="return false;">
+                        <BUTTON type="button" class="okbutton" id="incrementButtonx">
+                        </BUTTON>
+                    </form>
+                </div>
+            </div>
+            <div class="frame-29 resize-div" id="timeb" style="position:relative; top:-61px"></div>
+        </div>
+    </div>
+    <form action="mapquizresult.jsp" id="quizendform">
+    </form>
+</div>
+<script src="js/userinfo.js"></script>
+<script src="js/mapquiz.js"></script>
+</body>
+
+
+</html>

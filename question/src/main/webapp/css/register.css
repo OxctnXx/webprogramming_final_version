@@ -1,0 +1,238 @@
+/* screen - register */
+
+.register {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  padding: 151px 0px;
+  position: relative;
+}
+
+.register .frame-60 {
+  height: 385.5px;
+  position: relative;
+  width: 819px;
+}
+
+.register .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 387px;
+  position: relative;
+  top: -2px;
+}
+
+.register .text-1-1 {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 54px;
+  font-weight: 700;
+  height: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1.0px;
+  min-width: 199px;
+  text-align: center;
+}
+
+.register .group-1 {
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+  min-width: 819px;
+}
+
+.register .id-pw {
+  align-items: flex-start;
+  display: flex;
+  height: 190px;
+  overflow: hidden;
+  padding: 0 18.5px;
+  width: 504px;
+}
+
+.register .frame-62 {
+  align-items: flex-start;
+  align-self: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 17.5px;
+  margin-bottom: 21.0px;
+  position: relative;
+}
+
+.register .text {
+  align-self: stretch;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.register .text-3 {
+  align-self: stretch;
+  color: transparent;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  position: relative;
+}
+
+.register .text-1 {
+  align-self: stretch;
+  position: relative;
+}
+
+.register .frame-61 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 207px;
+  margin-bottom: -31.5px;
+  margin-left: 52px;
+  padding: 0px 10px;
+  position: relative;
+  width: 190px;
+}
+
+.register .frame {
+  align-self: stretch;
+  background-color: var(--mercury);
+  border-radius: 7.5px;
+  height: 31.5px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.register .greencircle {
+  background-color: #4ddeab;
+  border-radius: 4.5px;
+  height: 9px;
+  left: 155px;
+  position: relative;
+  top: 12px;
+  width: 9px;
+}
+
+.register .frame-17 {
+  align-self: stretch;
+  border-radius: 7.5px;
+  height: 31.5px;
+  position: relative;
+  width: 100%;
+}
+
+.register .frame-1 {
+  align-self: stretch;
+  background-color: var(--mercury);
+  border-radius: 7.5px;
+  height: 31.5px;
+  position: relative;
+  width: 100%;
+}
+
+.register .redcircle {
+  background-color: #de524d;
+  border-radius: 4.5px;
+  height: 9px;
+  left: 155px;
+  position: relative;
+  top: 11px;
+  width: 9px;
+}
+
+.register .verification {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 7.5px;
+  box-shadow: 0px 0px 6px #000000cc;
+  display: flex;
+  height: 32px;
+  margin-left: 14px;
+  margin-top: 15px;
+  overflow: hidden;
+  padding: 5.8px 20px;
+  width: 105px;
+}
+
+.register .text-6 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 16px;
+  font-weight: 500;
+  height: 19px;
+  margin-left: 1px;
+  min-width: 64px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.register .frame-21 {
+  background-color: var(--mercury);
+  height: 158px;
+  margin-bottom: 15.0px;
+  margin-left: 4px;
+  width: 2px;
+}
+
+.register .school-age {
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  height: 190px;
+  margin-left: 8px;
+  padding: 14.5px 17px;
+  width: 302px;
+}
+
+.register .school-age-frame {
+  display: inline-flex;
+  gap: 22px;
+}
+
+.register .school-age-textbox {
+  display: flex;
+  gap: 10px;
+  margin-top: 0.5px;
+  width: 164px;
+}
+
+.register .frame-22 {
+  align-items: flex-start;
+  background-color: var(--royal-blue);
+  border-radius: 27px;
+  box-shadow: 0px 0px 15px #3570ea;
+  display: flex;
+  height: 54px;
+  margin-top: 38px;
+  overflow: hidden;
+  padding: 12px 141px;
+  width: 366px;
+}
+
+.register .text-10 {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 22.5px;
+  font-weight: 500;
+  height: 27px;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+
+.register .school-age-1 {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.register .text-2 {
+  letter-spacing: 0;
+  line-height: normal;
+}

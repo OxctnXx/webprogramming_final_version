@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png"/>
+    <meta name="og:type" content="website"/>
+    <meta name="twitter:card" content="photo"/>
+    <link rel="stylesheet" type="text/css" href="css/guidequiz-edit.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/userinfo.js"></script>
+    <script src="js/maphighestScore.js"></script>
+    <script src="js/logout.js"></script>
+</head>
+<body style="margin: 0; background: #ffffff">
+<input type="hidden" id="anPageName" name="page" value="studyu38quize"/>
+<div class="studyu38quize screen">
+    <div class="navigation-bar">
+        <div class="nav-bar-group">
+            <div class="nav-bar">
+                <div class="frame-5">
+                    <div class="frame-51">
+                        <div class="title valign-text-middle">새내기 길라잡이</div>
+                    </div>
+                    <div class="frame-5">
+                        <div class="right-menu">
+                            <div class="profile">
+                                <div class="image">
+                                    <div class="frame-2"></div>
+                                    <div class="frame-3"></div>
+                                </div>
+                                <div class="text-1 valign-text-middle text-2" id="user-name"></div>
+                            </div>
+                            <div class="log-out">
+                                <form action="" method="get">
+                                    <div class="log-out-1 valign-text-middle">log out</div>
+                                    <button  class="logoutbutton" id="logoutbutton"
+                                             style="z-index:100;"></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+    </div>
+    <div class="main-area main-1">
+        <div class="frame-56">
+            <div class="frame-55">
+                <div class="main-title main-1">
+                    <img class="icon" src="img/frame-25.svg" alt="icon"/>
+                    <h1 class="text-4 valign-text-middle text-2">지도</h1>
+                </div>
+            </div>
+            <div class="frame-54">
+                <div class="frame-5-1">
+                    <div class="contents contents-1">
+                        <div class="contents-item contents-1">
+                            <div class="text valign-text-middle text-2">1. 동국대 건물들</div>
+                        </div>
+                        <div class="contents-item contents-1">
+                            <div class="text valign-text-middle text-2">2. 동국대의 지름길</div>
+                        </div>
+                    </div>
+                    <div class="quiz quiz-2 ">
+                        <div class="pluscontainer"
+                             style=" min-width:0px; position:relative; width: 100%; height: 100%; align-items: center;">
+                            <form action="campusmap.html" method="get">
+                                <button type="submit" class="quiz quizstratbutton">
+                                </button>
+                            </form>
+                            <div class="overlap-group " style=" min-width:0px;  width: 100%; height: 100%;">
+                                <div class="frame-7 " style="  align-items: center; ">
+                                    <div class="quiz-1 valign-text-middle"
+                                         style="font-size: 20px; align-items: center; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ">
+                                        지도보기&nbsp;&nbsp;&nbsp;&nbsp;&lt;-|
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz">
+                        <div class="pluscontainer">
+                            <form action="map_question.html" method="get">
+                                <button type="submit" class="quiz quizstratbutton">
+                                </button>
+                            </form>
+                            <div class="overlap-group">
+                                <div class="frame-7">
+                                    <div class="quiz-1 valign-text-middle">quiz 시작</div>
+                                    <div class="frame-6"></div>
+                                    <div class="nn valign-text-middle" id="high-score">최고: nn점</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

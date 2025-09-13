@@ -1,0 +1,9 @@
+# webprogramming_final_project
+final assignment of Web Programming 
+
+帮我写一下改一下ClearStatus
+新增了主页中map button里面的quiz，这个mapquiz和之前的guidequiz是类似的，只是多了照片而已。这部分也帮我做一下
+logout看看需不需要改
+UpdateUserScoreServlet, QuestionBankServlet, FreshmanQuizServlet, GetTypeQuesionServlet可能都要改一下
+MapquizServlet也帮我做一下
+昨晚做的时候心态崩了有很多忽略的。。麻烦帮我看一下我这边还需要改什么

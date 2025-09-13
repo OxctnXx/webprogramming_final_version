@@ -1,0 +1,31 @@
+:root {
+    --black: #000000;
+    --cultured-pearl: #f5f5f5;
+    --mercury: #e6e6e6;
+    --royal-blue: #3570ea;
+    --white: #ffffff;
+
+    --font-size-l: 24px;
+    --font-size-m: 20px;
+    --font-size-s: 15px;
+    --font-size-xl: 32px;
+    --font-size-xs: 12.1px;
+    --font-size-xxs: 11px;
+
+    --font-family-inter: "Inter", Helvetica;
+}
+.inter-medium-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.inter-bold-black-12-1px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 700;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/quizu95result-1.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide-1.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals-1.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/quizresult-edit.css" />
+  <script src="JS/scorecalculate_script.js"></script>
+</head>
+
+<body style="margin: 0; background: #ffffff">
+  <input type="hidden" id="anPageName" name="page" value="quizu95result" />
+  <div class="quizu95result screen">
+    <div class="navigation-bar">
+      <div class="nav-bar-group">
+        <div class="nav-bar">
+          <div class="frame-5">
+            <div class="frame-5">
+              <div class="frame-51">
+                <div class="title valign-text-middle inter-bold-black-15px">새내기 길라잡이</div>
+              </div>
+              <div class="right-menu">
+                <div class="profile">
+                  <div class="image">
+                    <div class="frame-2"></div>
+                    <div class="frame-3"></div>
+                  </div>
+                  <div class="text-1 valign-text-middle inter-normal-black-11px" id="user-name"></div>
+                </div>
+                <div class="log-out">
+                  <div class="log-out-1 valign-text-middle inter-normal-white-11px">log out</div>
+                  <form action="logout.jsp" method="get">
+                    <button type="submit" class="overlap-group"></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </div>
+    <div class="frame-10">
+      <div class="text-2 valign-text-middle">당신의 점수는</div>
+      <h1 class="text-3 valign-text-middle" id="score">점수를 계산 중입니다...</h1>
+      <div class="text-4 valign-text-middle">입니다.</div>
+      <div class="frame-15">
+        <div class="frame-15-item">
+          <div class="return">
+            <p class="text-5 valign-text-middle">돌아가기&nbsp;&nbsp;&nbsp;&nbsp;&lt;-|</p>
+          </div>
+          <form action="return.jsp" method="get">
+            <button type="submit" class="overlap-group"></button>
+          </form>
+        </div>
+        <div class="frame-15-item">
+          <div class="replay">
+            <div class="text-6 valign-text-middle">재시험</div>
+          </div>
+          <form action="replay.jsp" method="get">
+            <button type="submit" class="overlap-group"></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

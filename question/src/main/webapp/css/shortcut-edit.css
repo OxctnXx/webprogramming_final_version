@@ -1,0 +1,160 @@
+/* screen - u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 */
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: 331px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .picture-frame {
+    align-items: flex-end;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 277px;
+    height: 330px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .frame-1 {
+    height: 330px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 389px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .explain-frame {
+    align-items: flex-start;
+    background-color: var(--cultured-pearl);
+    gap: 15px;
+    height: 330px;
+    width: 389px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .number-frame {
+    height: 90px;
+    position: relative;
+    width: 90px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .text {
+    height: 77px;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .text-2 {
+    align-self: stretch;
+    position: relative;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .explain-letter {
+    align-items: center;
+    align-self: stretch;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .text-3 {
+    align-self: stretch;
+    margin-top: -1.00px;
+    position: relative;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .picture {
+    background-color: var(--mercury);
+    height: 330px;
+    position: relative;
+    width: 334px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .text-1 {
+    height: 108px;
+    left: 85px;
+    position: absolute;
+    top: 110px;
+    width: 164px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .divider {
+    align-self: stretch;
+    background-color: var(--mercury);
+    height: 1px;
+    position: relative;
+    width: 100%;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path-2 {
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path-2-1 {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path-3 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path-3-2 {
+    margin-top: -1.00px;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .explain {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path-1 {
+    align-self: stretch;
+    position: relative;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .path-3-3 {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+}
+
+.u4364u4469u4357u4467u4535u4352u4469u4527-u4358u4457u4520u4357u4457u4520 .text-4 {
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}

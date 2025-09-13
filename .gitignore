@@ -1,0 +1,7 @@
+echo ".DS_Store
+.idea/
+smarttomcat/
+*.log
+*.tmp
+target/
+out/" > /gitignore

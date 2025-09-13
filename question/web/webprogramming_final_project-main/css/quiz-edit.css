@@ -1,0 +1,368 @@
+
+    
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation-bar {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.frame-5 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  height: 18px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  width: 222px;
+}
+
+.right-menu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 99px;
+}
+
+.image {
+  background-color: var(--royal-blue);
+  border-radius: 15px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+}
+
+.frame-3 {
+  background-color: var(--cultured-pearl);
+  border-radius: 10px;
+  height: 20px;
+  left: 5px;
+  position: absolute;
+  top: 20px;
+  width: 20px;
+}
+
+.log-out {
+  background-color: var(--royal-blue);
+  border-radius: px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 92px;
+}
+
+.divider {
+  align-self: stretch;
+  background-color: var(--mercury);
+  height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+
+
+ button
+        {
+          opacity:0;
+        }
+          
+        .okbutton
+        {
+          width:100%;
+          height:50px;
+        }
+
+      :root { 
+  --black: #000000;
+  --cultured-pearl: #f5f5f5;
+  --mercury: #e6e6e6;
+  --royal-blue: #3570ea;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 30px;
+  --font-size-s: 24px;
+  --font-size-xs: 20px;
+  --font-size-xxs: 17px;
+  --font-size-xxxs: 15px;
+  --font-size-xxxxs: 11px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-inter-medium: "Inter-Medium", Helvetica;
+}
+.inter-medium-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-inter-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-black-17px {
+  color: var(--black);
+  font-family: var(--font-family-inter-medium);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/* screen - quiz */
+
+.quiz {
+align-items: center;
+background-color: var(--cultured-pearl);
+display: flex;
+flex-direction: column;
+gap: 64px;
+height: 601px;
+position: relative;
+}
+
+.quiz .nav-bar-group {
+align-items: flex-start;
+align-self: stretch;
+background-color: var(--white);
+display: flex;
+flex-direction: column;
+height: 61px;
+padding: 0px 30px;
+position: relative;
+width: 100%;
+}
+
+.quiz .nav-bar {
+align-items: flex-start;
+align-self: stretch;
+background-color: var(--white);
+display: flex;
+flex-direction: column;
+gap: 10px;
+height: 60px;
+padding: 15px 0px;
+position: relative;
+width: 100%;
+}
+
+.quiz .frame-51 {
+height: 30px;
+left: 6px;
+position: absolute;
+top: 0;
+width: 940px;
+}
+
+.quiz .frame-2 {
+background-color: var(--cultured-pearl);
+border-radius: 6px;
+height: 12px;
+left: 9px;
+position: absolute;
+top: 6px;
+width: 12px;
+}
+
+.quiz .text-1 {
+height: 30px;
+margin-top: -1.00px;
+position: relative;
+width: 57px;
+}
+
+.quiz .overlap-group {
+align-items: flex-start;
+background-color: #d9d9d980;
+display: flex;
+height: 200px;
+left: -86px;
+min-width: 265px;
+padding: 31px 114px;
+position: relative;
+top: -90px;
+}
+
+.quiz .log-out-1 {
+height: 30px;
+letter-spacing: 0;
+line-height: normal;
+min-width: 36px;
+text-align: center;
+white-space: nowrap
+
+}
+
+.quiz .text-2 {
+color: var(--black);
+font-family: var(--font-family-inter);
+font-size: 40px;
+font-weight: 700;
+position: relative;
+text-align: center;
+white-space: nowrap;
+width: fit-content;
+}
+
+.quiz .frame-11 {
+background-color: var(--royal-blue);
+border-radius: 20px;
+box-shadow: 0px 0px 20px #3570ea;
+height: 286px;
+overflow: hidden;
+position: relative;
+width: 900px;
+}
+
+.quiz .flex-col {
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 59px;
+min-height: 198px;
+position: relative;
+top: 88px;
+}
+
+.quiz .text-3 {
+height: 29px;
+min-width: 670px;
+text-align: center;
+}
+
+.quiz .frame-14 {
+align-items: center;
+display: inline-flex;
+gap: 19px;
+margin-right: 1.0px;
+position: relative;
+}
+
+.quiz .frame-12 {
+background-color: #4ddeab;
+border-radius: 21px;
+height: 42px;
+position: relative;
+width: 185px;
+}
+
+.quiz .o {
+height: 29px;
+left: 83px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 6px;
+}
+
+.quiz .frame-13 {
+background-color: #de524d;
+border-radius: 21px;
+height: 42px;
+position: relative;
+width: 185px;
+}
+
+.quiz .x {
+height: 29px;
+left: 84px;
+letter-spacing: 0;
+line-height: normal;
+position: absolute;
+text-align: center;
+top: 6px;
+}
+
+.quiz .frame-29 {
+background-color: var(--cultured-pearl);
+box-shadow: 0px 0px 20px 3px #4ddeab;
+height: 9px;
+width: 900px;
+}
+
+.quiz .text {
+letter-spacing: 0;
+line-height: normal;
+}
+

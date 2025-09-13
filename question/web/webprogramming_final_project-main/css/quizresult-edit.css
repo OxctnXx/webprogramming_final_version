@@ -1,0 +1,13 @@
+.overlap-group{
+  
+  
+    height: 300px;
+    width: 300px;
+
+    position: relative;
+    top: -90px;
+      }
+
+      button{
+        opacity: 0;
+      }

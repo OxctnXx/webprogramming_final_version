@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="og:type" content="website" />
+  <meta name="twitter:card" content="photo" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <link rel="stylesheet" type="text/css" href="css/register-1.css" />
+  <script src="js/registerpage_script.js"></script>
+</head>
+
+<body style="margin: 0; background: #ffffff">
+  <input type="hidden" id="anPageName" name="page" value="register" />
+  <div class="register screen">
+    <div class="frame-60">
+      <div class="flex-col">
+        <h1 class="text-1-1 valign-text-middle">회원가입</h1>
+        <form action="/submit" method="post" id="myForm">
+          <div class="group-1">
+            <div class="id-pw">
+              <div class="frame-62">
+                <div class="text valign-text-middle text-2 inter-medium-black-18px">아이디</div>
+                <div class="text-3 valign-text-middle text-2">아이디</div>
+                <div class="text-1 valign-text-middle text-2 inter-medium-black-18px">패스워드</div>
+                <div class="text-1 valign-text-middle text-2 inter-medium-black-18px">패스워드 확인</div>
+              </div>
+              <div class="frame-61">
+                <div class="frame">
+                  <input type="text" id="username" name="username" placeholder="아이디 입력" class="frame registerTextInput"
+                    required></input>
+                  <div class="greencircle" id="idcircle"></div>
+                </div>
+                <div class="frame-17"></div>
+                <input type="password" id="password" name="password" placeholder="비밀번호 입력" class="frame-1"
+                  required></input>
+                <div class="frame">
+                  <input type="password" id="passwordconfirm" name="passwordconfirm" placeholder="패스워드 확인"
+                    class="frame registerTextInput" required></input>
+                  <div class="redcircle" id="passcircle"></div>
+                </div>
+              </div>
+              <div class="verification">
+                <div class="verification veria">
+                  <div class="text-6 valign-text-middle text-2 abcd">중복 확인</div>
+                </div>
+                <button type="button" id="duplicationbutton" class="duplicationbutton"></button>
+              </div>
+            </div>
+            <div class="frame-21"></div>
+            <div class="school-age">
+              <div class="school-age-frame school-age-1 inter-medium-black-18px">
+                <div class="text valign-text-middle text-2">학교 선택</div>
+                <div class="text-1 valign-text-middle text-2">학번</div>
+                <div class="text-1 valign-text-middle text-2">나이</div>
+                <div class="text-1 valign-text-middle text-2">이름</div>
+              </div>
+              <div class="school-age-textbox school-age-1">
+                <select id="school" name="school" class="frame-1" required>
+                  <option value="">학교 선택</option>
+                  <option value="dongguk" id="dongguk">동국대학교</option>
+                </select>
+                <input type="text" id="number" name="number" placeholder="학번 입력" required class="frame-1"></input>
+                <input type="text" id="age" name="age" placeholder="나이 입력" required class="frame-1"></input>
+                <input type="text" id="name" name="name" placeholder="이름 입력" required class="frame-1"></input>
+              </div>
+            </div>
+          </div>
+          <div class="frame-22">
+            <div class="text-10 valign-text-middle text-2 abcd" id="resultMessage">가입하기</div>
+            <button type="button" class="frame-22 aaa" id="submitbutton"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>
